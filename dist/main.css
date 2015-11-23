@@ -1,0 +1,8 @@
+._src_btn__normal {
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background-color: #ff64b1;
+    color: #fff;
+    text-decoration: none;
+}

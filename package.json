@@ -1,0 +1,24 @@
+{
+  "name": "css-modules-sandbox",
+  "version": "1.0.0",
+  "description": "CSS Modules Sandbox.",
+  "scripts": {
+    "start": "browserify -p [css-modulesify --after autoprefixer --autoprefixer.browsers '> 5%' -o dist/main.css] -o dist/index.js src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kubosho/css-modules-sandbox.git"
+  },
+  "author": "kubosho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubosho/css-modules-sandbox/issues"
+  },
+  "homepage": "https://github.com/kubosho/css-modules-sandbox#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.1.1",
+    "browserify": "^12.0.1",
+    "css-modulesify": "^0.15.0"
+  }
+}
